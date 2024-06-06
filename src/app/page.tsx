@@ -1,7 +1,6 @@
-import Image from "next/image";
+"use client"
 import Hero from "../components/ui/hero/Hero";
 import Catalog from "../components/ui/catalog/Catalog";
-import axios from "axios";
 import { ProductService } from "../services/products.service";
 
 async function getProducts() {

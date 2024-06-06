@@ -1,3 +1,4 @@
+"use client"
 import Catalog from "../../components/ui/catalog/Catalog"
 import { ProductService } from "../../services/products.service"
 
